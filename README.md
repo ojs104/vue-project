@@ -23,4 +23,8 @@ Project name: ...latest
 √ Add ESLint for code quality? ... <span style="color: blue">Yes</span>    
 √ Add Prettier for code formatting? ... <span style="color: blue">Yes</span>    
 
+gsap 설치 : `npm install gsap`
+gsap 설치 : `npm install sass`
+lenis 설치 `npm install @studio-freight/lenis`
+
 

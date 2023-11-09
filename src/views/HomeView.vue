@@ -1,9 +1,24 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import SkipSection from '../components/SkipSection.vue';
+import SkillSection from '../components/SkillSection.vue';
+import HeaderSection from '../components/HeaderSection.vue';
+import SiteSection from '../components/SiteSection.vue';
+import PortSection from '../components/PortSection.vue';
+import IntroSection from '../components/IntroSection.vue';
+import ContactSection from '../components/ContactSection.vue';
+import FooterSection from '../components/FooterSection.vue';
 </script>
 
+
 <template>
-  <main>
-    <TheWelcome />
+  <SkipSection />
+  <HeaderSection />
+  <main id="main" role="main">
+    <IntroSection />
+    <SkillSection />
+    <SiteSection />
+    <PortSection />
+    <ContactSection />
   </main>
+  <FooterSection />
 </template>
